@@ -64,7 +64,6 @@ data "aws_iam_policy_document" "bucket_policy" {
 
 module "log_bucket" {
   source = "../../"
-
   bucket        = "logs-${random_pet.this.id}"
   force_destroy = true
 
