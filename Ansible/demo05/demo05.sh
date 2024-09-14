@@ -1,0 +1,1 @@
+ansible-playbook -i inverntory -k playbook.yml
